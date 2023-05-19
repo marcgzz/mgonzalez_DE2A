@@ -1,0 +1,113 @@
+  body{
+    background-image: url(img/calle.jpg);
+}
+.semaforo{
+  height: 800px;
+  width: 450px;
+  background-color: #4B4B4B;
+  margin: 0 auto;
+  border-radius: 50px;;
+  border: 20px solid black;
+}
+.palo{
+  height: 100px;
+  width: 400px;
+  background-color: #4B4B4B;
+  position: absolute;
+  top: -450px;
+}
+.luzroja{
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  border-radius: 100%;
+  margin: 0 auto;
+  margin-left: 120px;
+  margin-top: 70px;
+  position: absolute;
+  background-image: url(img/persona2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50px;
+}
+.luzambar{
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  border-radius: 100%;
+  margin: 0 auto;
+  margin-left: 120px;
+  margin-top: 300px;
+  position: absolute;
+  background-image: url(img/persona3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50px;
+  filter: brightness(40%);
+}  
+.luzverde{
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  border-radius: 100%;
+  margin: 0 auto;
+  margin-left: 120px;
+  margin-top: 530px;
+  position: absolute;
+  background-image: url(img/persona.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50px;
+  filter: brightness(30%);
+}
+@media (max-width: 2150px) {
+  .luzroja {
+    filter: brightness(100%);
+  }
+}
+@media (max-width: 2000px){
+  .luzroja {
+    filter: brightness(50%);
+  }
+}
+@media (max-width: 1800px){
+  .luzroja {
+    filter: brightness(100%);
+  }
+}
+@media (max-width: 1600px){
+  .luzroja {
+    filter: brightness(50%);
+  }
+}
+@media (max-width: 1400px){
+  .luzroja {
+    filter: brightness(100%);
+  }
+}
+@media (max-width: 1200px){
+  .luzroja {
+    filter: brightness(50%);
+  }
+}
+@media (max-width: 1000px){
+  .luzroja {
+    filter: brightness(50%);
+  }
+}
+@media (max-width: 1000px){
+  .luzroja {
+    filter: brightness(50%);
+  }
+}
+@media (min-width: 650px) and (max-width: 950px) {
+  .luzambar {
+    filter: brightness(100%);
+  }
+}
+@media (max-width: 645px){
+  .luzverde {
+    filter: brightness(100%);
+  }
+}
+
