@@ -1,0 +1,132 @@
+body{
+    background-color: black;
+}
+.cabecera{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+.contenedor{
+    height: 1010px;
+    width: 1500px;
+    background-color: black;
+    margin: 0 auto;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+.cajas{
+    background-color: #ffff;
+    height: 470px;
+    width: 470px;
+    margin: 20px;
+    border: 4px white;
+    float: left;
+    position: absolute;
+    align-items: center;
+    background-image: url(img/img2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+#caja2{
+    background-color: #ffff;
+    height: 470px;
+    width: 470px;
+    margin: 20px;
+    margin-left: 515px;
+    border: 4px white;
+    float: left;
+    position: absolute;
+    align-items: center;
+    background-image: url(img/img1.jpg);
+}
+#caja3{
+    background-color: #ffff;
+    height: 470px;
+    width: 470px;
+    margin: 20px;
+    margin-left: 1010px;
+    border: 4px white;
+    float: left;
+    position: absolute;
+    align-items: center;
+    background-image: url(img/img3.jpg);
+    background-size: cover;
+
+}
+#caja4{
+    background-color: #ffff;
+    height: 470px;
+    width: 470px;
+    margin: 20px;
+    margin-top: 515px;
+    border: 4px white;
+    float: left;
+    position: absolute;
+    align-items: center;
+    background-image: url(img/img6.jpg);
+
+}
+#caja5{
+    background-color: #ffff;
+    height: 470px;
+    width: 470px;
+    margin: 20px;
+    margin-left: 515px;
+    margin-top: 515px;
+    border: 4px white;
+    float: left;
+    position: absolute;
+    align-items: center;
+    background-image: url(img/img4.jpg);
+
+}
+#caja6{
+    background-color: #ffff;
+    height: 470px;
+    width: 470px;
+    margin: 20px;
+    margin-left: 1010px;
+    margin-top: 515px;
+    border: 4px white;
+    float: left;
+    position: absolute;
+    align-items: center;
+    background-image: url(img/img5.jpg);
+
+}
+.botones {
+    margin-top: 50px;
+    margin-left: 180px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.botones:hover {
+    background-color: white;
+    color: black;
+}
+p{
+    color: white;
+     -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.nombre{
+    margin-top: 150px;
+    margin-left: 170px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-style:normal;
+    color: white;
+}
